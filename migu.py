@@ -30,7 +30,7 @@ class migu():
         self.frame = (self.frame + 1) % len(self._migu)
         self.image = self._migu[self.frame]
         
-        self.window.geometry("110x110")
+        self.window.geometry("136x110")
         
         self.label.configure(image=self.image)
         
